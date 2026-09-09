@@ -1,0 +1,5 @@
+Invert match (-v - Show lines that do NOT match):
+Crucial for cleaning up configuration files by stripping commented-out lines:
+
+Bash
+grep -v "^#" /etc/ssh/sshd_config
