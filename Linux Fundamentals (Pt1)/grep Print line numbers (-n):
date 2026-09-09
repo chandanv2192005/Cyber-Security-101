@@ -1,0 +1,5 @@
+Print line numbers (-n):
+Tells you the exact line number where the match was found.
+
+Bash
+grep -n "Failed password" /var/log/auth.log
