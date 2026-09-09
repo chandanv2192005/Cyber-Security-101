@@ -1,0 +1,5 @@
+Whole-word match only (-w):
+Matches root, but ignores rootless, chroot, or rooted.
+
+Bash
+grep -w "root" /etc/passwd
