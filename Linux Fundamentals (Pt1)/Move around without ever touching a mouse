@@ -1,0 +1,4 @@
+ls	list what's in the current folder
+cd	change directory — move into a folder
+cat	show the contents of a file
+pwd	print working directory — "where am I?"
