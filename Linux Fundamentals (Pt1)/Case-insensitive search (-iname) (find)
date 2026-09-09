@@ -1,0 +1,5 @@
+Case-insensitive search (-iname):
+Matches Report.txt, report.TXT, REPORT.txt, etc.
+
+Bash
+find /home/user -iname "report.txt"
