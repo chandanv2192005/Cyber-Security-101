@@ -1,0 +1,2 @@
+find	search for files by their name. For example, find -name passwords.txt
+grep	searches inside for text. For example, grep "password123" passwords.txt
