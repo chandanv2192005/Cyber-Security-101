@@ -1,0 +1,5 @@
+Case-insensitive match (-i):
+Matches error, Error, ERROR, etc.
+
+Bash
+grep -i "error" /var/log/syslog
