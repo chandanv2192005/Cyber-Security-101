@@ -1,0 +1,4 @@
+Case-sensitive search:
+
+Bash
+find /home/user -name "report.txt"
