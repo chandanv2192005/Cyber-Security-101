@@ -1,0 +1,4 @@
+Exact case-sensitive match:
+
+Bash
+grep "error" /var/log/syslog
