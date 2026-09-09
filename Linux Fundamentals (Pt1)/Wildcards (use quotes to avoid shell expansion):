@@ -1,0 +1,4 @@
+Find all .log files in /var/log:
+
+Bash
+find /var/log -name "*.log"
