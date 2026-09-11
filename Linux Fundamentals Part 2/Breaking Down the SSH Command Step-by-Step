@@ -1,0 +1,13 @@
+Here is the command you need to type into your terminal:
+
+Bash
+ssh tryhackme@10.10.x.x
+Every component serves a specific purpose:
+
+ssh: The program/binary you are executing. It acts as the SSH client.
+
+tryhackme: The username of the account on the target machine you want to log into.
+
+@: The separator meaning "at the host located at..."
+
+10.10.x.x: The Target Machine IP Address displayed in the card at the top of your TryHackMe room.
