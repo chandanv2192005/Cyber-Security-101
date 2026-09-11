@@ -1,0 +1,10 @@
+1.Establish Connection & Host Verification:First connection check.When you hit Enter, your client reaches out to the server on Port 22. Because this is the first time you are connecting, your terminal will stop and show a prompt like:PlaintextThe authenticity of host '10.10.x.x' can't be established.
+ED25519 key fingerprint is SHA256:4kG...
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Type the full word yes and press Enter. This saves the server's public key fingerprint into your local ~/.ssh/known_hosts file to protect against Man-in-the-Middle (MitM) attacks.
+
+2.Type the Password (No 
+Visible Feedback):Authentication.Next, it asks for the password:Plaintexttryhackme@10.10.x.x's password:
+Critical Note: When you type tryhackme, nothing will show up on your screen—no letters, no asterisks (****), and the cursor won't move. This is a deliberate Unix security design called password masking to prevent "shoulder surfers" from seeing how many characters your password has. Type tryhackme blindly and hit Enter.
+
+3.Verify Successful Session:Check the prompt change.Once accepted, observe your terminal prompt carefully.Before: root@attackbox:~#After: tryhackme@linuxfundamentals:~$You are no longer inside your own machine. Running whoami returns tryhackme, and running hostname confirms you are executing commands inside the remote server.
