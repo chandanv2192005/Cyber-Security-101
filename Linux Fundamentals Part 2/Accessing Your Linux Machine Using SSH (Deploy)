@@ -1,0 +1,7 @@
+┌──────────────────────────────┐                ┌──────────────────────────────┐
+│  TryHackMe AttackBox         │                │  Target Lab Machine          │
+│  (Your Workstation / Cloud)  │                │  (The Target Server)         │
+│                              │                │                              │
+│  Role: SSH CLIENT            │ ──(SSH Encrypted)──► Role: SSH SERVER         │
+│  Runs your commands          │    Port 22     │  Executes commands           │
+└──────────────────────────────┘                └──────────────────────────────┘
