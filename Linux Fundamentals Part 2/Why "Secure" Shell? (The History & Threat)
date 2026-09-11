@@ -1,0 +1,5 @@
+Before SSH was invented in 1995, engineers used an older tool called Telnet (Port 23) to manage remote computers.
+
+The Telnet Disaster: Telnet transmitted everything in clear plaintext. If an attacker was sniffing network traffic using a tool like Wireshark on the same network or ISP, they could read your username and password directly off the screen.
+
+How SSH Fixes This: SSH operates on Port 22 by default. Before you even send your password, SSH performs a cryptographic handshake. It creates an encrypted tunnel so that all passwords and shell commands look like scrambled random bytes to anyone eavesdropping on the wire.
