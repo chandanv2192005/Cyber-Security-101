@@ -1,0 +1,7 @@
+Imagine you buy a server or a single-board computer like a Raspberry Pi. It doesn't have a monitor, a mouse, or a keyboard attached to it—it sits in a closet or a cloud data center miles away.
+
+Without SSH: You would have to physically drive to the data center, plug in a monitor and a keyboard, and type your commands sitting on the floor.
+
+With SSH: You plug an Ethernet cable into that machine, sit on your comfortable couch, open your laptop's terminal, and run a secure "virtual extension cord" straight to that machine.
+
+When you press Enter on your laptop, the keystrokes travel through that encrypted cord, execute on the remote machine's CPU, and the results stream back onto your screen.
