@@ -1,0 +1,3 @@
+When you are done interacting with the remote machine and want to return to your local AttackBox shell,
+run:exit
+This tears down the SSH session cleanly, closes the TCP connection on Port 22, and drops your prompt back to your AttackBox terminal.
