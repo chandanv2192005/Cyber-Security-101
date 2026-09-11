@@ -1,0 +1,1 @@
+The Telnet Disaster: Telnet transmitted everything in clear plaintext. If an attacker was sniffing network traffic using a tool like Wireshark on the same network or ISP, they could read your username and password directly off the screen.
