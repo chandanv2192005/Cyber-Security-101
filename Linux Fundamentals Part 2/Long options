@@ -1,0 +1,5 @@
+Long options: Start with two dashes (--) and use full words:
+
+ls --all (identical to ls -a)
+
+ls --help
