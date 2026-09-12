@@ -1,0 +1,7 @@
+Keystroke	What It Does
+Down Arrow / Enter	Scroll down one line
+Up Arrow	Scroll up one line
+Spacebar	Scroll down an entire page
+/pattern (e.g., /-a)	Search forward for text matching that flag
+n	Jump to the next search match
+q	Quit the manual and return to your terminal prompt
