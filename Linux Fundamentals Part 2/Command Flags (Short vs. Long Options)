@@ -1,0 +1,15 @@
+nux commands are modular. You change how a command behaves by adding flags (also called arguments, switches, or options):
+
+Short options: Start with a single dash (-) and a single letter:
+
+ls -a (displays all files)
+
+ls -l (displays detailed file metadata: permissions, size, date)
+
+Combine them together: ls -la (lists all files in long detailed format)
+
+Long options: Start with two dashes (--) and use full words:
+
+ls --all (identical to ls -a)
+
+ls --help
