@@ -1,0 +1,13 @@
+The Real-Life Analogy: The Wiring Behind the Drywall
+When you enter a room in an office building, you see doors, desks, and chairs (regular files and folders). You do not see the electrical conduits, plumbing pipes, or HVAC ducts. They aren't "top secret"—they are tucked inside the walls so everyday occupants don't accidentally tamper with them or clutter their view.
+
+Why Linux Uses Them:
+Configuration & Environment: Linux stores user settings, history, and configuration files in dotfiles (e.g., .bashrc, .profile, .ssh/).
+
+Clutter Prevention: If every configuration folder were visible, running ls in your home folder would show dozens of configuration folders instead of your actual work (Documents, Downloads, Projects).
+
+Security & Pentesting Relevance: Attackers frequently hide malicious scripts, persistence backdoors, or stolen credentials inside hidden folders (like .hiddenfolder/ or .secret/). If you only type ls, you miss them completely.
+
+
+ls        # Shows only normal visible files: folder1
+ls -a     # Shows everything, including hidden items: .hiddenfolder, .bashrc, folder1
