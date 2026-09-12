@@ -1,0 +1,16 @@
+Nobody memorizes every single flag for every Linux tool. Instead, Linux has built-in reference manuals directly in your terminal.
+
+A. The Quick Reference: --help
+When to use it: When you just forgot the exact letter for a flag (e.g., "Is it -a or -A?").
+
+Behavior: It dumps a quick summary directly into your terminal screen and immediately returns you to the prompt so you can copy/paste or glance at syntax.
+
+Bash
+ls --help
+B. The Complete Manual: man (The Deep Dive)
+When to use it: When you encounter a brand-new tool and need to understand the full syntax, return codes, edge cases, and examples.
+
+Behavior: It opens an interactive text reader (using less under the hood) taking over your entire screen.
+
+Bash
+man ls
