@@ -1,0 +1,5 @@
+Concept	Command	Real-World Use Case
+Standard List	ls	Quick check of regular user files and directories
+Reveal Hidden Items	ls -a or ls -la	Finding hidden configuration files (.bashrc, .ssh) or hidden attacker artifacts
+Quick Flag Lookup	<command> --help	Fast syntax check without leaving the terminal line
+Complete Documentation	man <command>	In-depth manual with flag definitions, syntax rules, and examples
