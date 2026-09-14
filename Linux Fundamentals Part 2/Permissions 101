@@ -1,0 +1,14 @@
+As you would have already found out by now, certain users cannot access certain files or folders. We've previously explored some commands that can be used to determine what access we have and where it leads us. 
+
+In our previous tasks, we learned how to extend the use of commands through flags and switches. Take, for example, the ls command, which lists the contents of the current directory. When using the -l switch, we can see ten columns such as in the screenshot below. However, we're only interested in the first three columns:
+
+
+Using ls -lh to list the permissions of all files in the directory
+tryhackme@linux2:~$ ls -lh
+-rw-r--r-- 1 cmnatic cmnatic 0 Feb 19 10:37 file1
+-rw-r--r-- 8 cmnatic cmnatic 0 Feb 19 10:37 file2
+Although intimidating, these three columns are very important in determining certain characteristics of a file or folder and whether or not we have access to it. A file or folder can have a couple of characteristics that determine both what actions are allowed and what user or group has the ability to perform the given action -- such as the following:
+
+Read
+Write
+Execute
