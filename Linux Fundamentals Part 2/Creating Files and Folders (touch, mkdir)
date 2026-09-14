@@ -1,0 +1,10 @@
+Creating files and folders on Linux is a simple process. First, we'll cover creating a file. The touch command takes exactly one argument -- the name we want to give the file we create. For example, we can create the file "note" by using touch note. It's worth noting that touch simply creates a blank file. You would need to use commands like echo or text editors such as nano to add content to the blank file.
+
+
+Using touch to create a new file
+tryhackme@linux2:~$ touch note
+tryhackme@linux2:~$ ls           
+folder1 note
+This is a similar process for making a folder, which just involves using the mkdir command and again providing the name that we want to assign to the directory. For example, creating the directory "mydirectory" using mkdir mydirectory.
+
+
