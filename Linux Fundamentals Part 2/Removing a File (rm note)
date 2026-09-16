@@ -1,0 +1,8 @@
+Removing a File (rm note)
+Deleting a standalone regular file is straightforward:
+
+Bash
+rm note
+Under the hood: Linux removes the directory entry for note and decrements the inode reference count.
+
+Verification: Running ls immediately after shows note is gone, leaving only folder1 and mydirectory.
