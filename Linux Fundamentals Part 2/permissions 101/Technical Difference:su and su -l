@@ -1,0 +1,3 @@
+su user2: Changes your effective User ID (UID), but keeps your old environment—you remain in /home/tryhackme, retaining the previous user's environment variables ($PATH, $USER, $SHELL). This can break scripts that look for configs in $HOME.
+
+su -l user2 (or su - user2): Starts a true login shell. It clears previous variables, runs user2's .bashrc and .profile, sets $HOME to /home/user2, and lands you directly in /home/user2. In security testing and administration, always prefer su -l so you don't inherit poisoned or unexpected environment variables.
