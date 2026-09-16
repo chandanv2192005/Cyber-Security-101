@@ -1,0 +1,9 @@
+Removing a Directory (rm -R mydirectory)
+If you try to remove a directory using plain rm mydirectory, Linux blocks the operation with an error:
+
+Plaintext
+rm: cannot remove 'mydirectory': Is a directory
+Linux does this deliberately to prevent accidental data destruction. To delete a directory and everything inside it, you must use the -R (or lowercase -r) flag, which stands for recursive.
+
+Bash
+rm -R mydirectory
