@@ -1,0 +1,6 @@
+Rename a file in the current directory:Bashmv old_name.txt new_name.txt
+Move a file into another folder:Bashmv report.txt /home/tryhackme/folder1/
+Move and rename at the same time:Bashmv report.txt /home/tryhackme/folder1/final_report.txt
+Copy multiple files into a directory in one shot:Bashcp file1.txt file2.txt file3.txt /home/tryhackme/folder1/
+Prevent accidental overwrites (-i interactive flag):By default, cp and mv will overwrite an existing destination file without asking. Use -i to prompt for confirmation:Bashcp -i note note2
+# cp: overwrite 'note2'? 
