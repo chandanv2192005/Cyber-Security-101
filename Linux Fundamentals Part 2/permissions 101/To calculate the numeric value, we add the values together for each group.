@@ -1,0 +1,33 @@
+To calculate the numeric value, we add the values together for each group.
+
+Example: rwxrwxrwx
+Break it down:
+
+Group	Permissions	Calculation	Value
+Owner	rwx	4 + 2 + 1	7
+Group	rwx	4 + 2 + 1	7
+Others	rwx	4 + 2 + 1	7
+So:
+
+
+rwxrwxrwx = 777
+More Common Examples
+Symbolic	Numeric	Meaning
+rwxr-xr-x	755	Owner can do everything, others can read and execute
+rw-r--r--	644	Owner can read/write, others can only read
+rwx------	700	Only the owner has access
+Why This Matters
+Understanding numeric permissions is important because:
+
+Many Linux commands use numeric values (e.g. chmod 755 file)
+You can quickly identify security risks
+You can control who can access sensitive files
+For example:
+
+
+chmod 750 system_overview.txt
+This means:
+
+Owner: full access
+Group: read + execute
+Others: no access
