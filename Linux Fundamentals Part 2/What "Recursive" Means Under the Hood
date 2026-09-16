@@ -1,0 +1,11 @@
+A directory can contain subfolders, which contain other subfolders, which contain files.
+
+The -R flag commands Linux to crawl to the deepest subfolder, delete the innermost files first, work its way up deleting parent folders, and finally delete mydirectory itself:
+
+Plaintext
+mydirectory/
+  ├── subfolder/
+  │     └── deep_file.txt  <-- 1. Deletes this first
+  └── file1.txt            <-- 2. Deletes this
+                           <-- 3. Deletes empty subfolder/
+                           <-- 4. Deletes empty mydirectory/
