@@ -1,0 +1,11 @@
+-r / -R (Recursive): Deletes directories and all nested contents.
+
+-f (Force): Suppresses confirmation prompts and ignores nonexistent files without throwing an error (e.g., rm -rf test_dir).
+
+-i (Interactive / Safe Mode): Prompts for confirmation before deleting each file. Recommended for beginners:
+
+Bash
+rm -i note
+# rm: remove regular empty file 'note'? y
+Critical Safety Warning: The Dangerous rm -rf /
+Because rm -rf deletes recursively and ignores all safety prompts without asking questions, running commands like sudo rm -rf / or typing a misplaced space like rm -rf / tmp/test will systematically erase the entire operating system root drive. Always double-check your path before pressing Enter.
