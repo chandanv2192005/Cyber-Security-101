@@ -1,0 +1,6 @@
+The su command stands for Substitute User (or Switch User). It lets you drop your current shell session into another account's shell, provided you know that account's password.
+
+The Real-Life Analogy: The Contractor Badge
+su user2 (Without -l): Imagine a visitor enters your office. You lend them your desk, your chair, and your pen, but they wear an ID badge that says "user2". They are operating as user2, but they are still surrounded by all your personal clutter and folders.
+
+su -l user2 (With -l / --login): You send the visitor to their own dedicated office down the hall. Their desk has their own tools, their own drawer keys, and their own calendar loaded.
