@@ -1,0 +1,7 @@
+When you execute:
+
+Bash
+file note
+The file utility does not look at the name note. Instead, it reads the first few bytes at the very beginning of the file, known as Magic Bytes / Magic Numbers or file signatures.
+
+File FormatFirst Few Bytes (Magic Number)Human-Readable RepresentationELF Binary (Linux Executable)7F 45 4C 46.ELFPNG Image89 50 4E 47 0D 0A 1A 0A.PNG....PDF Document25 50 44 46%PDFZIP Archive50 4B 03 04PK..Bash Shell Script23 21 2F 62 69 6E 2F#!/bin/ASCII TextStandard printable ASCII character bytes(No special header; verified byte by byte)
