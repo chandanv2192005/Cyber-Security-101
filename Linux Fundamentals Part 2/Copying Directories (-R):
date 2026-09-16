@@ -1,0 +1,5 @@
+Just like rm, if you try to copy a directory without a flag, cp will refuse:
+
+Bash
+cp -R folder1 folder1_backup
+The -R (recursive) flag tells cp to copy the folder along with every subfolder and file nested inside it.
