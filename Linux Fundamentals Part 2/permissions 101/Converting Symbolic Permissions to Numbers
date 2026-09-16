@@ -1,0 +1,6 @@
+Each permission has a numeric value:
+
+Permission	Value
+Read (r)	4
+Write (w)	2
+Execute (x)	1
