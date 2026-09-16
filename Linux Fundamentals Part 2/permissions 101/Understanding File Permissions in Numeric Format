@@ -1,0 +1,15 @@
+In Linux, every file and directory has a set of permissions that control who can read, write, or execute it. These permissions are often displayed in symbolic format, such as:
+
+
+rwxrwxrwx
+This format is split into three groups:
+
+Section	Applies To	Example
+First 3	Owner	rwx
+Next 3	Group	rwx
+Last 3	Others	rwx
+Each letter represents a specific permission:
+
+r = read
+w = write
+x = execute
