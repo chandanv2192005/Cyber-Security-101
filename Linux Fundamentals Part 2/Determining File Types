@@ -1,0 +1,3 @@
+In Windows, the operating system relies heavily on the file extension (.exe, .txt, .pdf, .png) to decide what a file is and which program opens it. If you rename a video file from movie.mp4 to movie.txt in Windows, Windows treats it as a text document and fails to read it.
+
+Linux does not trust file extensions. In Linux, extensions are purely optional visual helpers for human users. A file named picture.jpg could secretly be an executable binary, a script, or plain text.
