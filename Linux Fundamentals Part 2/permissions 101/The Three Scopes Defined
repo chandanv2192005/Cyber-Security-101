@@ -1,0 +1,18 @@
+1. The Owner (u for User)
+What it is: The single user account that owns the file. By default, whoever runs touch or creates the file becomes its owner.
+
+Privileges: The owner has full control to change permissions (chmod) or hand ownership to someone else (chown).
+
+2. The Group (g for Group)
+What it is: A collection of multiple user accounts grouped together under one name (e.g., developers, admin, www-data).
+
+Why it is useful: Instead of setting permissions for 20 individual employees one by one, an administrator adds all 20 employees to the developers group. Then, they simply set group permissions on the project directory. Any member of that group automatically gets those rights.
+
+3. Others (o for Others / World)
+What it is: Every other user account on the entire system that is:
+
+Not the file owner, AND
+
+Not a member of the file's assigned group.
+
+Security rule: In production environments, "Others" permissions are almost always set to 0 (no access) or 4 (read-only) to prevent unauthorized data leaks.
