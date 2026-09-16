@@ -1,0 +1,6 @@
+mv (Move and Rename)
+The mv command serves two roles in Linux:
+
+Moving a file or folder to a different path or directory.
+
+Renaming a file or folder in place.
