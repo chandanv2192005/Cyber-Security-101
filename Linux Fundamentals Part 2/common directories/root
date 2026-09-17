@@ -1,0 +1,8 @@
+/root
+
+Unlike the /home directory, the /root folder is actually the home for the "root" system user. There isn't anything more to this folder other than just understanding that this is the home directory for the "root" user. But, it is worth a mention as the logical presumption is that this user would have their data in a directory such as "/home/root" by default.  
+
+
+Some notable contents of the /root directory
+root@linux2:~# ls
+myfile myfolder passwords.xlsx
