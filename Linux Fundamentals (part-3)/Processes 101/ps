@@ -1,0 +1,5 @@
+We can use the friendly ps command to provide a list of the running processes as our user's session and some additional information such as its status code, the session that is running it, how much usage time of the CPU it is using, and the name of the actual program or command that is being executed:
+
+
+
+Note how in the screenshot above, the second process ps has a PID of 204, and then in the command below it, this is then incremented to 205.
