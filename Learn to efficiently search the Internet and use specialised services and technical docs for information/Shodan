@@ -2,3 +2,4 @@ Shodan is often described as a search engine for the Internet of Things (IoT), b
 
 For example, searching apache 2.4.1 will return a list of servers advertising that version in their HTTP headers, broken down by country, organisation, and port. During a penetration test or vulnerability assessment, that kind of visibility is extremely useful, particularly when paired with a known CVE affecting that version.
 
+ 
