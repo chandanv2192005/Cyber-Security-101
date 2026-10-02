@@ -1,0 +1,5 @@
+
+This is where environment variables, more specifically system environment variables, come into play.  Even though not discussed yet, the system  environment variable for the Windows directory is %windir% .
+
+Per Microsoft (opens in new tab), " Environment variables store information about the operating system environment. This information includes details such as the operating system path, the number of processors used by the operating system, and the location of temporary folders ".
+
