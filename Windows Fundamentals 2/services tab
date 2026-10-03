@@ -1,0 +1,2 @@
+The Services tab lists all services configured for the system regardless of their state (running or stopped). A service is a special type of application that runs in the background.  
+
