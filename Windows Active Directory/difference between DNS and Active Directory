@@ -1,0 +1,3 @@
+DNS is a phonebook for finding machines; Active Directory is an identity and access management system for controlling who can do what on those machines.
+
+While they often run on the same Windows server in an enterprise environment, they serve entirely different purposes.
