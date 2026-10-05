@@ -1,0 +1,12 @@
+Active Directory strictly relies on DNS to function. When a Windows laptop wants to join a domain or authenticate a user, it doesn't automatically know where the Domain Controller (DC) is located. It asks DNS.
+
+The Client Queries DNS:
+When an employee logs into their laptop as CORP\chandan, the laptop asks the DNS server: "Where is the Domain Controller for corp.local?"
+
+DNS Resolves via SRV Records:
+Active Directory registers special Service Location records (SRV records) inside DNS (such as _ldap._tcp.dc._msdcs.corp.local). DNS replies: "The Domain Controller is at IP 192.168.1.10."
+
+Active Directory Authenticates:
+The laptop now reaches out directly to 192.168.1.10 over Port 88 (Kerberos) to verify the user's password and load their profile.
+
+If DNS fails in an enterprise environment, Active Directory breaks completely because clients can no longer locate their Domain Controllers to log in.
