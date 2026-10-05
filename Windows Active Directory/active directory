@@ -1,0 +1,3 @@
+Active Directory (AD), developed by Microsoft, is a centralized directory service used by organizations to manage users, computers, servers, security permissions, and network resources in a Windows environment.
+
+Without Active Directory, an IT department with 1,000 employees would need to manually create 1,000 separate user accounts on every single computer, file share, and printer in the company. With AD, an administrator creates a user account once, and that identity works across the entire corporate network.
