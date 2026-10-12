@@ -1,0 +1,9 @@
+┌───────────────────────────────────────┐       ┌───────────────────────────────────────┐
+│     Organizational Unit (OU)          │       │           Security Group              │
+│       (Where you SIT / Structure)     │       │       (What KEYS you HOLD)            │
+├───────────────────────────────────────┤       ├───────────────────────────────────────┤
+│ • Used to apply POLICIES (Rules).     │       │ • Used to grant PERMISSIONS (Access). │
+│ • You can only belong to ONE OU.      │       │ • You can belong to MANY Groups.      │
+│ • Example: The "Sales Department"     │       │ • Example: "Project X", "VPN Users",  │
+│   room on Floor 3.                    │       │   "Color-Printer-Access".             │
+└───────────────────────────────────────┘       └───────────────────────────────────────┘
