@@ -1,0 +1,3 @@
+People: Regular employees (like you). You get an identity and password to log in, read emails, and access files.
+
+Services (Service Accounts): Think of an automated coffee vending machine or an industrial cleaning robot in the building. It’s not a human, but it still needs a keycard to unlock specific doors (e.g., access the water supply or supply closet) to do its job. In AD, background applications (like database servers) get their own specialized user accounts with only the bare minimum permissions needed.
