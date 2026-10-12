@@ -1,0 +1,5 @@
+Instead of the building manager handing you 15 separate keys for 15 different doors, they put you into a Group:
+
+If you join the Finance Group, you automatically inherit the key to the Finance filing cabinet and the Finance printer.
+
+When a new finance intern joins, the administrator doesn't configure 20 permissions—they simply add the intern to the "Finance" group, and they instantly get all the right access.
