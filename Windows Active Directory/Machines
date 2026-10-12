@@ -1,0 +1,5 @@
+Every physical laptop or desktop joined to the company network gets its own identity in AD.
+
+The $ Sign: An employee might be named chandan, but their laptop object is named LAPTOP-01$. That dollar sign simply signals to Windows: "This is a machine account, not a human being."
+
+Automatic Passwords: You don’t need to remember the laptop's password; Windows automatically rotates a 120-character secret password in the background between the computer and the server.
