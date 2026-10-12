@@ -1,0 +1,11 @@
+ADUC is the administrative software window that system administrators use every day. It looks like a file explorer tree showing:
+
+The Builtin folder: Standard administrative groups.
+
+The Computers folder: Where any newly added laptop automatically lands.
+
+The Domain Controllers folder: Where the primary identity servers live.
+
+Organizational Units (OUs): The departments (IT, Sales, HR).
+
+Resetting Passwords: When an employee forgets their password on Monday morning, the IT Helpdesk opens this tool, right-clicks the user, and clicks "Reset Password".
