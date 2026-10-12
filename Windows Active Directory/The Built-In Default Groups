@@ -1,0 +1,9 @@
+Active Directory comes with standard roles pre-configured:
+
+Domain Admins: The Master Key / CEO & Chief of Security. They can unlock every room, access every laptop, and enter the main vault (Domain Controllers).
+
+Backup Operators: The Moving & Storage Crew. They have special permission to read and copy any file in the building—even confidential files they don't own—purely so they can make backup copies.
+
+Account Operators: The HR Badge-Issuing Desk. They can create new employee badges, update details, or disable badges for people who leave the company, but they can't change the Master Keys.
+
+Domain Users & Domain Computers: The General Registry. Every human employee belongs to Domain Users, and every registered laptop belongs to Domain Computers.
