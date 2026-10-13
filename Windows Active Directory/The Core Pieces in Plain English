@@ -1,0 +1,9 @@
+Inside that central server, everything is organized like a digital file cabinet:
+
+User: A person’s identity (e.g., Sophie or Phillip).
+
+Machine: A registered computer (e.g., TOM-PC$).
+
+Organizational Unit (OU): A folder used to organize people by department (e.g., a folder called Sales, a folder called Marketing, a folder called IT).
+
+Group: A set of keys given to a group of people. If you want everyone in Sales to open the Deals folder, you put them in the Sales-Group and give that group permission.
