@@ -9,3 +9,4 @@ The Domain Controllers folder: Where the primary identity servers live.
 Organizational Units (OUs): The departments (IT, Sales, HR).
 
 Resetting Passwords: When an employee forgets their password on Monday morning, the IT Helpdesk opens this tool, right-clicks the user, and clicks "Reset Password".
+ 
