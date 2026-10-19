@@ -1,0 +1,15 @@
+The Old, Hard Way (Without Active Directory):
+When a new employee joins, the IT guy has to walk to that person’s laptop, create a local username and password, walk over to the file server, create another account there, and walk to the printer to set it up.
+
+If that employee gets fired, the IT guy has to run around the whole building deleting their access from every single machine.
+
+It is slow, messy, and impossible to manage.
+
+The Smart Way (Active Directory):
+Microsoft created Active Directory (AD).
+
+Think of AD as one giant central computer (the Domain Controller) that holds the master list of everyone and everything in the entire company.
+
+Instead of every laptop remembering passwords, every laptop simply calls the central server and asks: "Hey, this person is trying to type in their password—are they legit?"
+
+If you hire or fire someone, you make one click on that central server, and they are added or removed across the whole company instantly.
