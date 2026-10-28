@@ -1,1 +1,2 @@
 Imagine you are the CEO / Chief IT Administrator. You don't want employees calling you every 5 minutes saying "I forgot my password!"You have a junior IT support guy named Phillip.You want to give Phillip the power to reset passwords for people in the Sales department, but without making Phillip an all-powerful administrator who can see everything.This is called Delegation (giving someone a specific job).What you do: Right-click the Sales folder $\rightarrow$ click Delegate Control $\rightarrow$ select phillip $\rightarrow$ give him permission to "Reset user passwords".
+ 
